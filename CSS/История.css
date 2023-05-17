@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: RGB(165, 0, 0);
+  background-color: white;
 }
 
 h1 {   /* Заголовки */
@@ -12,7 +12,7 @@ h1 {   /* Заголовки */
   text-align: center;
   margin-top: 20px;
   top: 50%;
-  font-size: 1.8em;
+  font-size: 50px;
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
 }
@@ -20,68 +20,86 @@ h1 {   /* Заголовки */
 h2 {  /* Заголовки-2 */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
   margin: 20px;
-  font-size: 1.4em;
+  font-size: 40px;
   color: black;
   margin: 2% 10% 1% 13%;  /* отступы (сверху, справа, снизу, слева) */
 }
 
-.histoty_text {  /* текст */
+.history_text {  /* текст */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 1.0em;
+  font-size: 30px;
   color: black;
   margin: 2% 10% 1% 10%;  /* отступы (сверху, справа, снизу, слева) */
 }
 
-.histoty_text_abzac {  /* Добавляем красную строку абзаца */
+.main_menu li.active {  /*активный пункт меню*/
+  display: block;
+  padding: 1em;
+  border: 2px solid RGB(231, 184, 28);
+  background-color: RGB(231, 184, 28);
+  color: RGB(165, 0, 0);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: RGB(165, 0, 0);
+  /* свойства шрифта*/
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+
+.history_text_abzac {  /* Добавляем красную строку абзаца */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 1.0em;
+  font-size: 30px;
   color: black;
   margin: 2% 10% 1% 10%;  /* отступы (сверху, справа, снизу, слева) */
-  text-indent: 5%;
+  text-indent: 40px;
 }
 
 /* задаём стиль ссылок */
-.histoty_text_silka a:link {
+.history_text_silka a:link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 1.4em;
-  color: green;
+  font-size: 30px;
+  color: rgb(236, 182, 32);
   margin: 0% 0% 0% 15%;  /* отступы (сверху, справа, снизу, слева) */
   text-decoration: none;
+  -webkit-text-stroke: 1px rgb(190, 70, 0);
 }
 
 /* задаём стиль ссылок при наведении мышки */
-.histoty_text_silka a:hover {
+.history_text_silka a:hover {
   text-decoration: underline;
-  color: green;
+  color: rgb(236, 182, 32);
+  -webkit-text-stroke: 1px rgb(190, 70, 0);
 }
 
 /* задаём стиль ссылок после нажатия мышки */
-.histoty_text_silka a:visited {
+.history_text_silka a:visited {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 1.4em;
-  color: green;
+  font-size: 30px;
+  color: rgb(236, 182, 32);
   margin: 0% 0% 0% 15%;  /* отступы (сверху, справа, снизу, слева) */
   text-decoration: none;
+  -webkit-text-stroke: 1px rgb(190, 70, 0);
 }
 
 
-.histoty_picture {  /* Картинки */
-  margin: 0 25% 0 25%;
-  width: 50%;
+.history_picture {  /* Картинки */
+  margin:0 25% 0 25%;
+  width:50%;
 }
   
-.histoty_text_picture_1 { /* подпись к картинкам */
-  font-size: 0.6em;
+.history_text_picture_1 { /* подпись к картинкам */
+  font-size: 20px;
   font-family: 'Times New Roman', Times, Serif;
   color: black;
   margin: 10px;
   text-align: center;
 }
 
-.histoty_e {  /* на будущее */
+.history_e {  /* на будущее */
   position: relative;
   bottom: 0;
   background-color: rgb(255, 255, 255);
-  height: 20%;
+  height: 50px;
   width: 100%;
 }
