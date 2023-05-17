@@ -26,19 +26,25 @@ body {
 
 .header {
   position: relative;
-  height: 100px;
+  height: 8vw;                 /*100px;*/
 }
 
 .header_text {
-  position: relative;
+  position: absolute;          /*relative;*/
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  top: 5px;
-  height: 90px;
+  top: 2.5vw;
+  left: 10%;
+  height: 5.2vw;
   width: 80%;
-  font-size: 50px;
+  font-size: 3vw;
   color: white;
   background-color: RGB(165, 0, 0);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
@@ -46,25 +52,21 @@ body {
 }
 
 .header_logo_left {
-  position: relative;	
-  top: -85px;
-  left: 10.5%;
-  width: 80px;
-  height: 80px;
+  position: absolute;	
+  top: 1.3vw;
+  left: 10.3%;
+  width: 5%;
+  overflow: no-hidden;
   /*background-color: RGB(255, 255, 255);*/
 }
 
 .header_logo_right {
-  position: relative;
-  top: -169px;
-  right: 10.5%;
-  width: 80px;
-  height: 80px;
+  position: absolute;
+  top: 1.3vw;
+  right: 10.3%;
+  width: 5%;
   /*background-color: RGB(255, 255, 255);*/
 }
-
-@import url(https://fonts.googleapis.com/css?family=Lora);
-body {margin:0;}
 
 ul {
   overflow: hidden;
@@ -72,16 +74,10 @@ ul {
   margin: 0 auto;
 }
 
-a {
-  font-size: 20px;
-  display: block;
-  text-decoration: none;
-  font-family: 'Lora', serif;
-  transition: .5s linear;
-}
-
 i {
-  margin-right: 20px;
+  display: block;
+  margin-right: 20%;
+  border: 1px solid RGB(255, 255, 255);
 }
 
 nav {
@@ -91,82 +87,116 @@ nav {
 
 .main_menu{
   position: relative;
-  top: 0px;
+  top: 0%;
   width: auto;
-  height: 65px;
+  height: auto;
   display: flex;
-  margin-bottom: 2px;
-}
-
-.main_menu ul {
-  background: #ffffffe5;
-  overflow: hidden;
-  padding: 0;
-}
-
-.main_menu li {
-  float: left;
+  margin-bottom: 0.5%;
 }
 
 .main_menu a {
   display: block;
-  padding: 1em;
+  padding: 0.7em;
+  height: 2.5vw;  /* высота меню */
+  align-items: stretch;
+  align-content: center;
+  
   border: 1px solid RGB(231, 184, 28);
   background-color: RGB(165, 0, 0);
   color: #ffffff;
+  
+    /* свойства шрифта */
+  font-size: 1.6vw;
+  display: block;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+
+.main_menu li.active {  /*активный пункт меню*/
+  display: block;
+  padding: 0.7em;
+  height: 2.5vw;  /* высота меню */
+  align-items: stretch;
+  align-content: center;
+  
+  border: 1px solid RGB(231, 184, 28);
+  background-color: RGB(231, 184, 28);
+  color: RGB(165, 0, 0);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: RGB(165, 0, 0);
+  
+  /* свойства шрифта*/
+  font-size: 1.6vw;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
 }
 
 .main_menu a:hover {
   background-color: RGB(231, 184, 28);
 }
 
-.main_menu li.active {  /*активный пункт меню*/
-  display: block;
-  padding: 1em;
-  border: 2px solid RGB(231, 184, 28);
-  background-color: RGB(231, 184, 28);
-  color: RGB(165, 0, 0);
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: RGB(165, 0, 0);
-  /* свойства шрифта*/
-  font-size: 20px;
-  font-family: 'Lora', serif;
-  transition: .5s linear;
-}
-
 .main_window_text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 30px;
+  font-size: 1.2em;
   color: black;
   margin: 10% 10% 2% 10%;  /* отступы (сверху, справа, снизу, слева) */
 }
 
 .main_window_text_abzac {  /* Добавляем красную строку абзаца */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 40px;
+  font-size: 1.2em;
   color: black;
   margin: 8% 15% 10% 15%;  /* отступы (сверху, справа, снизу, слева) */
   text-indent: 40px;
 }
 
+.main_picture {  /* Картинки */
+  margin: -200% 30% 4% 33%;
+  top: -50%;
+  width: 30%;
+}
+
 .main_line_up_1 {
-  margin-top: 20px;
-  height: 80px;
+  margin-top: 20px;          
+  height: 2.8vw;            /*80px;*/
   width: 100%;
   background-color: RGB(231, 184, 28);
 }
 
 .main_line_down_1 {
-  height: 80px;
+  bottom: 0px;
+  height: 3vw;             /*80px;*/
   width: 100%;
   background-color: RGB(231, 184, 28);
+}
+
+.main_line_down_2 {
+  bottom: 0px;
+  height: 3vw;
+  width: 100%;
+  background-color: black;
 }
 
 .main_e {  /* на будущее */
   position: relative;
   bottom: 0;
   background-color: rgb(255, 255, 255);
-  height: 50px;
+  height: 50%;
   width: 100%;
+}
+
+.sticky{
+  width: 31.35%;
+  position: sticky;
+  top: 25%;
+  margin-top: 50;
+}
+
+.nosticky{
+  width: 31.35%;
+  position: relative;
+  top: 0;
+  min-height: 10em;
 }
