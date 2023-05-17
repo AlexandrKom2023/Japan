@@ -12,7 +12,7 @@ h1 {   /* Заголовки */
   text-align: center;
   margin-top: 20px;
   top: 50%;
-  font-size: 50px;
+  font-size: 3.13em;
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
 }
@@ -20,45 +20,30 @@ h1 {   /* Заголовки */
 h2 {  /* Заголовки-2 */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
   margin: 20px;
-  font-size: 40px;
+  font-size: 2.2em;
   color: black;
   margin: 2% 10% 1% 13%;  /* отступы (сверху, справа, снизу, слева) */
 }
 
 .history_text {  /* текст */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 30px;
+  font-size: 1.87em;
   color: black;
   margin: 2% 10% 1% 10%;  /* отступы (сверху, справа, снизу, слева) */
-}
-
-.main_menu li.active {  /*активный пункт меню*/
-  display: block;
-  padding: 1em;
-  border: 2px solid RGB(231, 184, 28);
-  background-color: RGB(231, 184, 28);
-  color: RGB(165, 0, 0);
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: RGB(165, 0, 0);
-  /* свойства шрифта*/
-  font-size: 20px;
-  font-family: 'Lora', serif;
-  transition: .5s linear;
 }
 
 .history_text_abzac {  /* Добавляем красную строку абзаца */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 30px;
+  font-size: 1.87em;
   color: black;
   margin: 2% 10% 1% 10%;  /* отступы (сверху, справа, снизу, слева) */
-  text-indent: 40px;
+  text-indent: 5%;
 }
 
 /* задаём стиль ссылок */
 .history_text_silka a:link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 30px;
+  font-size: 1.87em;
   color: rgb(236, 182, 32);
   margin: 0% 0% 0% 15%;  /* отступы (сверху, справа, снизу, слева) */
   text-decoration: none;
@@ -75,7 +60,7 @@ h2 {  /* Заголовки-2 */
 /* задаём стиль ссылок после нажатия мышки */
 .history_text_silka a:visited {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Sans-Serif;
-  font-size: 30px;
+  font-size: 1.87em;
   color: rgb(236, 182, 32);
   margin: 0% 0% 0% 15%;  /* отступы (сверху, справа, снизу, слева) */
   text-decoration: none;
@@ -89,7 +74,7 @@ h2 {  /* Заголовки-2 */
 }
   
 .history_text_picture_1 { /* подпись к картинкам */
-  font-size: 20px;
+  font-size: 1.2em;
   font-family: 'Times New Roman', Times, Serif;
   color: black;
   margin: 10px;
