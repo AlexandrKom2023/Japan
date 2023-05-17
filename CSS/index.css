@@ -34,12 +34,11 @@ body {
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
- 
   align-items: stretch;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  top: 2.5vw;
+  top: 2.55vw;
   left: 10%;
   height: 5.2vw;
   width: 80%;
@@ -47,7 +46,7 @@ body {
   color: white;
   background-color: RGB(165, 0, 0);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
-  border: 5px solid RGB(231, 184, 28);
+  border: 0.1em solid RGB(231, 184, 28);
 }
 
 .header_logo_left {
@@ -159,21 +158,21 @@ nav {
 
 .main_line_up_1 {
   margin-top: 20px;          
-  height: 2.8vw;            /*80px;*/
+  height: 4vw;            /*80px;*/
   width: 100%;
   background-color: RGB(231, 184, 28);
 }
 
 .main_line_down_1 {
   bottom: 0px;
-  height: 3vw;             /*80px;*/
+  height: 4vw;             /*80px;*/
   width: 100%;
   background-color: RGB(231, 184, 28);
 }
 
 .main_line_down_2 {
   bottom: 0px;
-  height: 3vw;
+  height: 4vw;
   width: 100%;
   background-color: black;
 }
