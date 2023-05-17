@@ -174,7 +174,7 @@ nav {
   bottom: 0px;
   height: 4vw;
   width: 100%;
-  background-color: black;
+  background-color: RGB(231, 184, 28);
 }
 
 .main_e {  /* на будущее */
@@ -183,6 +183,11 @@ nav {
   background-color: rgb(255, 255, 255);
   height: 50%;
   width: 100%;
+}
+
+.index_picture {  /* Картинки */
+  margin: -15% 0% 2% 35%;  /* отступы (сверху, справа, снизу, слева) */
+  width:20%;
 }
 
 .border{
