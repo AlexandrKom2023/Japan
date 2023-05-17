@@ -26,7 +26,7 @@ body {
 
 .header {
   position: relative;
-  height: 8vw;                 /*100px;*/
+  height: 14.1vw;                 /*100px;*/
 }
 
 .header_text {
@@ -38,7 +38,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  top: 2.55vw;
+  top: 8.6vw;
   left: 10%;
   height: 5.2vw;
   width: 80%;
@@ -51,7 +51,7 @@ body {
 
 .header_logo_left {
   position: absolute;	
-  top: 2.85vw;
+  top: 9.0vw;
   left: 10.6%;
   width: 5%;
   overflow: no-hidden;
@@ -60,7 +60,7 @@ body {
 
 .header_logo_right {
   position: absolute;
-  top: 2.85vw;
+  top: 9.0vw;
   right: 10.1%;
   width: 5%;
   /*background-color: RGB(255, 255, 255);*/
@@ -185,16 +185,39 @@ nav {
   width: 100%;
 }
 
-.sticky{
-  width: 31.35%;
-  position: sticky;
-  top: 25%;
-  margin-top: 50;
+.border{
+  width: 70%;
+  height: auto;
+  /*position: sticky;*/
 }
 
-.nosticky{
-  width: 31.35%;
-  position: relative;
-  top: 0;
-  min-height: 10em;
+.border_bottom{
+  width: 50%;
+  height: auto;
+}
+
+.fon-left{
+	position: absolute;
+    background-image: url("../картинки_япония/Fon_left.png");
+    background-repeat: repeat-y;
+	top: 15%;
+	margin-left: 2%;
+    
+	background-size: 51% auto;
+    height: 62em;
+    width: 10%;
+	background-attachment: no-fixed;
+}
+
+.fon-right{
+	position: absolute;
+    background-image: url("../картинки_япония/Fon_right.png");
+    background-repeat: repeat-y;
+	top: 10%;
+	margin-left: 91%;
+    margin-bottom: 2%;
+	background-size: 70% auto;
+    height: 60em;
+    width: 10%;
+	background-attachment: no-fixed;
 }
