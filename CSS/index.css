@@ -26,7 +26,7 @@ body {
 
 .header {
   position: relative;
-  height: 14.1vw;                 /*100px;*/
+  height: 7.47vw;                 /*100px;*/
 }
 
 .header_text {
@@ -38,7 +38,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  top: 8.6vw;
+  top: 2.0vw;
   left: 10%;
   height: 5.2vw;
   width: 80%;
@@ -51,7 +51,7 @@ body {
 
 .header_logo_left {
   position: absolute;	
-  top: 9.0vw;
+  top: 2.35vw;
   left: 10.6%;
   width: 5%;
   overflow: no-hidden;
@@ -60,7 +60,7 @@ body {
 
 .header_logo_right {
   position: absolute;
-  top: 9.0vw;
+  top: 2.35vw;
   right: 10.1%;
   width: 5%;
   /*background-color: RGB(255, 255, 255);*/
