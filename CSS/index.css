@@ -43,8 +43,8 @@ body {
   height: 5.2vw;
   width: 80%;
   font-size: 3vw;
-  color: white;
-  background-color: RGB(165, 0, 0);
+  color: black; /*white;*/
+  background-color: RGB(255, 254, 245); /*RGB(165, 0, 0); */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
   border: 0.1em solid RGB(231, 184, 28);
 }
@@ -85,7 +85,7 @@ nav {
 
 .main_menu{
   position: relative;
-  top: 0%;
+  top: 2%;
   width: auto;
   height: auto;
   display: flex;
@@ -98,10 +98,14 @@ nav {
   height: 2.5vw;  /* высота меню */
   align-items: stretch;
   align-content: center;
-  
   border: 1px solid RGB(231, 184, 28);
-  background-color: RGB(165, 0, 0);
-  color: #ffffff;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 3px;
+  
+  
+  background-color: RGB(255, 254, 245); /*RGB(165, 0, 0);*/
+  color: RGB(50, 50, 50); /*#ffffff;*/
   
     /* свойства шрифта */
   font-size: 1.6vw;
@@ -118,12 +122,12 @@ nav {
   align-items: stretch;
   align-content: center;
   
-  border: 1px solid RGB(231, 184, 28);
+  border: 3px solid RGB(231, 184, 28);
   background-color: RGB(231, 184, 28);
-  color: RGB(165, 0, 0);
+  color: RGB(50, 50, 50); /*RGB(165, 0, 0);*/  /* цвет текста активного пункта*/
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  text-decoration-color: RGB(165, 0, 0);
+  text-decoration-color: RGB(50, 50, 50);
   
   /* свойства шрифта*/
   font-size: 1.6vw;
